@@ -3,7 +3,19 @@
 [![CI](https://github.com/langchain-ai/react-agent/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/langchain-ai/react-agent/actions/workflows/unit-tests.yml)
 [![Integration Tests](https://github.com/langchain-ai/react-agent/actions/workflows/integration-tests.yml/badge.svg)](https://github.com/langchain-ai/react-agent/actions/workflows/integration-tests.yml)
 
-## Local Setup
+## Directory Structure
+- All prototyping notebooks are in the prototypes directory.
+- All final agents will live in in the src directory.
+
+## Getting Started
+
+### Prerequisites
+
+1. **Install `uv` Package Manager:**
+   ```bash
+   pip install uv
+
+### Local Setup
 
 To get startedfollow these steps:
 
@@ -45,5 +57,3 @@ uv run langgraph up
 ```
 
 If you get any error in `d` step stop all containers, run `docker system prune` and try again.
-
-All Prototyping notebooks will be in `prototypes` directory. And all final agents will live in `src` directory.
