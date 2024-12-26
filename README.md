@@ -61,15 +61,15 @@ If you get any error in `d` step stop all containers, run `docker system prune` 
 
 ---------------------------------------------------------------------------------------------
 
-### How To Use With Docker & Compose file
+## How To Use With Docker & Compose file
 
-#### Step 01 : Clone This Repo
+### Step 01 : Clone This Repo
 
 ```bash
 https://github.com/panaversity/langgraph-agents-template.git
 ```
 
-#### Step 02 : Create Docker Image 
+### Step 02 : Create Docker Image 
 
  - Install Docker Desktop
 
@@ -87,14 +87,14 @@ https://github.com/panaversity/langgraph-agents-template.git
  docker compose up -d 
  ```
 
-#### Step 03 : Open Langgraph Studio
+### Step 03 : Open Langgraph Studio
 
  - Click Below Link to view your graph
 
- <a href="https://smith.langchain.com/studio/thread?baseUrl=http%3A%2F%2F127.0.0.1%3A8123">Langgraph Studio Url</a>
+ <a href="https://smith.langchain.com/studio/thread?baseUrl=http%3A%2F%2F127.0.0.1%3A8123">Langgraph Studio URL</a>
 
 
-#### Step 04 : How We REflect your change in container
+### Step 04 : How We REflect your change in container
 
  - Simply Down Your Container
 
@@ -108,4 +108,4 @@ https://github.com/panaversity/langgraph-agents-template.git
  docker compose up -d
  ```
 
- - It's reflect your local changes in container & graph
+ - It's reflect your local changes in Container & Graph
