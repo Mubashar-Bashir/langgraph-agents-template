@@ -17,6 +17,6 @@ builder.add_conditional_edges(
     "generate_response", tools_condition, ["tools", END])
 builder.add_edge("tools", "generate_response")
 
-graph = builder.compile()
+react_graph = builder.compile()
 
-graph.name = "react_agent"
+react_graph.name = "react_agent"
