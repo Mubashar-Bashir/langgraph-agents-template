@@ -109,3 +109,18 @@ https://github.com/panaversity/langgraph-agents-template.git
  ```
 
  - It's reflect your local changes in Container & Graph
+ 
+### Step 05 : Change model from OPENAI to GOOGLE GEMINI (OPTIONAL)
+
+ - in `configration.py` file change the below 26 number line:
+ 
+
+ ```code
+  default="openai/gpt-4o",
+ ```
+
+ To
+
+ ```code
+ default="google_genai/gemini-1.5-flash",
+ ```
